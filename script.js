@@ -82,6 +82,7 @@ function definirIntento(INTENTO, palabrasecreta, ROW, GRID){
         if (INTENTO[i]===undefined){
             SPAN.innerHTML = ' '
         }
+
        
         ROW.appendChild(SPAN)
     }
